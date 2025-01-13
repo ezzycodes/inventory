@@ -8,15 +8,12 @@ This project is a mobile application built using Flutter to manage inventory eff
 - **Add New Inventory Items**: Create new items with details such as name, category, quantity, and price.
 - **Update Inventory**: Edit existing inventory items, including changes to quantity, description, or other details.
 - **Delete Inventory Items**: Remove items that are no longer needed from the inventory.
-- **Search and Filter**: Quickly locate inventory items using search and filter options.
-- **Stock Tracking**: Monitor stock levels and receive low-stock notifications.
 - **Reports**: Generate and export inventory reports.
 
 ## Technology Stack
 - **Frontend**: Flutter (Dart)
 - **State Management**: Provider, Riverpod, or Bloc (choose as per preference)
 - **Database**: SQLite for local storage or Firebase Firestore for cloud-based storage
-- **Backend (Optional)**: Firebase or custom REST API
 - **Design**: Material Design principles
 
 ## Prerequisites
@@ -49,11 +46,8 @@ To get started with this project, ensure you have the following installed:
 ## Folder Structure
 ```
 lib/
-|-- models/          # Data models
+|-- database/        # Database folder
 |-- screens/         # UI screens
-|-- widgets/         # Reusable components
-|-- providers/       # State management
-|-- services/        # Business logic and APIs
 |-- utils/           # Utility functions and constants
 |-- main.dart        # App entry point
 ```
@@ -61,7 +55,6 @@ lib/
 ## Dependencies
 Key dependencies used in this project:
 - `flutter`: ^latest_version
-- `provider`: ^latest_version (or other state management package)
 - `sqflite`: ^latest_version (for SQLite support)
 - `firebase_core` and `cloud_firestore`: ^latest_version (if using Firebase)
 
