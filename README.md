@@ -49,13 +49,10 @@ To get started with this project, ensure you have the following installed:
 ## Folder Structure
 ```
 lib/
-|-- models/          # Data models
+|-- database/          # Database
 |-- screens/         # UI screens
-|-- widgets/         # Reusable components
-|-- providers/       # State management
-|-- services/        # Business logic and APIs
 |-- utils/           # Utility functions and constants
-|-- main.dart        # App entry point
+|-- main.dart        # App entry poin
 ```
 
 ## Dependencies
